@@ -13,7 +13,7 @@ import com.android.tools.smali.dexlib2.immutable.ImmutableMethodImplementation
 
 @Suppress("unused")
 object SpoofClientPatch : BaseSpoofClientPatch(
-    redirectUri = "infinity://localhost",
+    redirectUri = "http://127.0.0.1",
     clientIdFingerprints = setOf(APIUtilsFingerprint),
     compatiblePackages = setOf(CompatiblePackage("ml.docilealligator.infinityforreddit"))
 ) {
